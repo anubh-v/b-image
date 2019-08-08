@@ -20,7 +20,7 @@ def read_and_generate(input_binary, pic_title):
         b, c = byte 
         counter[b][c] += 1
 
-    byte = bin_file.read(2)
+      byte = bin_file.read(2)
   
   # Generate heatmap using 2D representation
   gen_heatmap(counter, pic_title)
