@@ -1,4 +1,8 @@
 Visualise the binary content in files using heatmaps
 
 ## Examples
-![echo][docs/echo.png]
+
+Heatmap of `echo`
+
+![echo](https://github.com/anubh-v/b-image/blob/master/docs/echo.png)
+
