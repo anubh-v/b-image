@@ -8,6 +8,7 @@ if __name__ == "__main__":
   
   input_binary = sys.argv[1]
   pic_title = sys.argv[2]
+  read_and_generate(input_binary, pic_title)
 
 def read_and_generate(input_binary, pic_title):
   
