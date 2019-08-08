@@ -13,7 +13,7 @@ def read_and_generate(input_binary, pic_title):
     counter.append(lst)
 
   # Fill 2D representation
-  with open(input_file, 'rb') as bin_file:
+  with open(input_binary, 'rb') as bin_file:
     byte = bin_file.read(2)
     while byte:
       if len(byte) == 2:
@@ -23,7 +23,7 @@ def read_and_generate(input_binary, pic_title):
     byte = bin_file.read(2)
   
   # Generate heatmap using 2D representation
-  gen_heatmap(counter, sys.argv[2])
+  gen_heatmap(counter, pic_title)
 
 if __name__ == "__main__":
   if len(sys.argv) != 3:
