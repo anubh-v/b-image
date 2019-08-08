@@ -4,15 +4,6 @@ import sys
 
 input_file = sys.argv[1]
 
-def count_bits(num):
-  count = 0
-
-  while num:
-    count += num & 1
-    num >>= 1
-
-  return count
-
 counter = []
 for i in range(256):
   lst = []
